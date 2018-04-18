@@ -1,0 +1,7 @@
+user=zjjiayou2010@163.com
+pwd=Hallo2015
+sender=zjjiayou2010@163.com
+receiver=zjjiayou2010@163.com
+Subject=登陆测试自动化报告
+content=测试报告内容如上
+smtp_host=smtp.163.com

@@ -1,0 +1,10 @@
+url,http://www.mi.com/
+login_xpath,//*[@id="J_userInfo"]/a[1]
+user_id,username
+pwd_id,pwd
+photoinput_xpath,.//*[@id='captcha-code']
+login_id,login-button
+photo_error_xpath,.//*[@id='login-main-form']/div/div[4]/div/span
+error_xpath,//*[@id="error-outcon"]/div/span
+logout_class,name
+photo_xpath,.//*[@id='captcha-img']

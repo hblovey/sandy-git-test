@@ -1,0 +1,21 @@
+1521799480595	geckodriver	INFO	Listening on 127.0.0.1:13731
+1521799482689	mozprofile::profile	INFO	Using profile path C:\Users\LENOVO\AppData\Local\Temp\rust_mozprofile.DQP2swSxtzUg
+1521799482698	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1521799482755	geckodriver::marionette	INFO	Connecting to Marionette on localhost:13737
+1521799484745	Marionette	INFO	Listening on port 13737
+JavaScript warning: https://s01.mifile.cn/js/base.min.js?v20180309d, line 7: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+JavaScript error: https://account.xiaomi.com/pass/userInfoJsonP?userId=0&callback=setLoginInfo_getAccountInfo, line 3: SyntaxError: expected expression, got '<'
+[Child 7288] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-beta-w32-0000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 1857
+
+ype._windowReady@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/webbrowser.js:1723:1
+TabActor.prototype._changeTopLevelDocument/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/webbrowser.js:1660:7
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+Line: 1723, column: 1
+console.error: 
+  Handler function threw an exception: TypeError: threadActor is null
+Stack: TabActor.prototype._windowReady@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/webbrowser.js:1723:1
+TabActor.prototype._changeTopLevelDocument/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/webbrowser.js:1660:7
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+Line: 1723, column: 1
+console.error: 
+  Protocol error (noSuchActor): No such actor for ID: server1.conn0.animationsActor23
